@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "invoking-anonymeous-ap-ifrom-react-comp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/invokingAnonymeousApIfromReactComp/InvokingAnonymeousApIfromReactCompWebPart.js",
+          "manifest": "./src/webparts/invokingAnonymeousApIfromReactComp/InvokingAnonymeousApIfromReactCompWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InvokingAnonymeousApIfromReactCompWebPartStrings": "lib/webparts/invokingAnonymeousApIfromReactComp/loc/{locale}.js"
+  }
+}
